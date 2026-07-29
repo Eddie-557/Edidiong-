@@ -2,9 +2,30 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.title{
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.item{
+  width: 200px;
+  justify-content: center;
+  padding-top: 32px;
+}
+
+.item>.text{
+  text-align: center;
+}
+
 img {
   width: 100px;
   height: 100px;
+  margin: 0px 20%;
 }
 
 .title {
